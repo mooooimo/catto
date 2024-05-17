@@ -1,0 +1,16 @@
+/* NAVBAR START */
+.navbar-text a:hover {
+	color: #ffb835;
+}
+
+.navbar-button .log-in:hover,
+.sign-up:hover {
+	background-color: #ffeac2;
+}
+/* NAVBAR END */
+
+/* HERO START */
+.hero-button .display-button:hover {
+	background-color: #ffeac2;
+}
+/* HERO END */
