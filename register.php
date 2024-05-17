@@ -51,15 +51,15 @@ include "connection.php";
                                 <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
                             </div>
                             <div class="alert alert-success" id="success" style="margin-top: 10px; display:none">
-                                <strong>Horee!</strong> Account registration successfully.
+                                <strong>Hi!</strong> Account registration successfully.
                             </div>
                             <div class="alert alert-danger" id="failure" style="margin-top: 10px; display:none">
-                                <strong>Yaahhh!</strong> Username has been used.
+                                <strong>Sorry!</strong> Username has been used.
                             </div>
                         </form>
                     </div>
                     <div class="signup-image">
-                        <figure><img src="images/signup-image.jpg" alt="sing up image"></figure>
+                        <figure><img src="images/signup-image.png" alt="sing up image"></figure>
                         <a href="login.php" class="signup-image-link">I am already member</a>
                     </div>
                 </div>

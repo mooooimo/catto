@@ -231,13 +231,12 @@ body {
 }
 /* LOGO END */
 
-/* CONTAINER START */
+/* CLASSR START */
 .container {
 	background-color: #f6f6f6;
 	display: flex;
 	justify-content: center;
 	background-size: cover;
-	background-image: url(asset/catto\ background.png);
 }
 
 .container-second {
@@ -301,56 +300,5 @@ body {
 .container-frame img {
 	width: 90%;
 	margin-left: 50px;
-}
-/* CONTAINER END */
-
-/* CLASS START */
-.container-class {
-	background-color: #74bfd1;
-	background: linear-gradient(#9FEAF4, #74bfd1);
-	padding-top: 40px;
-	justify-content: center;
-	padding-left: 60px;
-	padding-right: 60px;
-}
-
-.class-label {
-	display: flex;
-	justify-content: center;
-}
-
-.class-text .class-fix {
-	margin-top: 80px;
-	background-color: #ffffff;
-	color: #74bfd1;
-	font-size: 14px;
-	border-radius: 32px;
-	padding: 12px 24px;
-	max-width: fit-content;
-	box-shadow: 2px -1px 104px -5px
-		rgba(255, 255, 255);
-	-webkit-box-shadow: 2px -1px 104px -5px
-		rgba(255, 255, 255);
-	-moz-box-shadow: 2px -1px 104px -5px
-		rgba(255, 255, 255);
-}
-
-.class-h1 {
-	color: #ffffff;
-	line-height: 150%;
-	font-size: 52px;
-	margin-top: 40px;
-	text-align: center;
-	margin-top: 40px;
-	font-weight: 400;
-}
-
-.class-b1 {
-	color: #eeeded;
-	line-height: 150%;
-	font-size: 24px;
-	text-align: center;
-	margin-top: 40px;
-	font-weight: 200;
 }
 /* CLASS END */

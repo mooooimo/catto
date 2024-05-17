@@ -29,7 +29,7 @@ include "connection.php";
             <div class="container">
                 <div class="signin-content">
                     <div class="signin-image">
-                        <figure><img src="images/signin-image.jpg" alt="sing up image"></figure>
+                        <figure><img src="images/signin-image.png" alt="sing up image"></figure>
                         <a href="register.php" class="signup-image-link">Create an account</a>
                     </div>
 
@@ -63,7 +63,7 @@ include "connection.php";
     </div>
 
 <?php
-if(isset($_POST{"signin"})) {
+if(isset($_POST["signin"])) {
 
     $count=0;
     $res=mysqli_query($link,"select * from registration where username='$_POST[username]' && password='$_POST[password]'");
