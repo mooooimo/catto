@@ -301,4 +301,54 @@ body {
 	width: 90%;
 	margin-left: 50px;
 }
+
+.icon-membaca {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	align-items: center;
+}
+
+.icon-membaca img {
+	margin-right: 10px;
+}
+
+.icon-membaca .text {
+font-size: 24px;
+font-weight: 500;
+text-align: center;
+margin-left: 300px;
+}
+
+.icon-huruf {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	padding-left: 700px;
+	height: 190px;
+	width: auto;
+}
+
+.icon-angka {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	padding-right: 700px;
+	height: 190px;
+	width: auto;
+}
+
+.icon-hitung {
+    display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	padding-left: 700px;
+	height: 190px;
+	width: auto;
+	margin-bottom: 20px;
+}
+
+.container-game {
+	background-color: #f6f6f6;
+}
 /* CLASS END */

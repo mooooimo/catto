@@ -110,6 +110,21 @@
 			<div class="container-b1">
 				"Play and Learn." - Catto
 			</div>
+    			<div class="container-game">
+    				<div class="icon-membaca">
+    					<img src="images\bmembaca.png">
+						<div class="container-p-text"><div class="text">lorem ipsum</div></div>
+    				</div>
+    				<div class="icon-huruf">
+    					<img src="images\bhuruf.png">
+    				</div>
+    				<div class="icon-angka">
+    					<img src="images\bangka.png">
+    				</div>
+    				<div class="icon-hitung">
+    					<img src="images\bmenulis.png">
+    				</div>
+    			</div>
 		</div>
 	</div>
 	<!-- CLASS END -->
