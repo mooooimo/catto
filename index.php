@@ -31,8 +31,7 @@
 				<a href="#class">Class</a>
 			</div>
 			<div><a href="#about">About</a></div>
-			<div><a href="">Support</a></div>
-			<div><a href="">Download</a></div>
+			<div><a href="#download">Download</a></div>
 		</div>
 		<div class="navbar-button">
 			<div class="log-in" id="signin">
@@ -110,24 +109,10 @@
 			<div class="container-b1">
 				"Play and Learn." - Catto
 			</div>
-			<!-- CARD CLASS START -->
-			<div class="card-class">
-				<div class="class-image-angka"></div>
-				<div class="class-text">
-					<div class="text-display">Belajar Angka</div>
-					<div class="text-level">15 levels</div>
-				</div>
-			</div>
-			<!-- CARD END -->
 		</div>
 	</div>
 	<!-- CLASS END -->
-
-	<!-- FOOTER START -->
-	<footer class="footer">
-
-	</footer>
-	<!-- FOOTER END -->
+	</script>
 </body>
 
 </html>
