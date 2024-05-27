@@ -241,7 +241,6 @@ body {
 
 .container-second {
 	margin-top: 80px;
-	max-width: 60%;
 }
 
 .label-fix {
@@ -270,6 +269,8 @@ body {
 	width: fit-content;
 	line-height: 150%;
 	padding-top: 40px;
+	/* padding-left: 220px;
+	padding-right: 220px; */
 	font-size: 52px;
 	color: #656565;
 	font-weight: 400;
@@ -301,6 +302,7 @@ body {
 	width: 90%;
 	margin-left: 50px;
 }
+/* CLASS END */
 
 .icon-membaca {
 	display: flex;
@@ -660,4 +662,4 @@ body {
 	width: 220px;
 }
 
-/* CLASS END */
+/* FOOTER END */
