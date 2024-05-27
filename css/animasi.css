@@ -14,3 +14,8 @@
 	background-color: #ffeac2;
 }
 /* HERO END */
+
+.download-h1 .download-here:hover {
+	background-color:	#ffeac2;
+	color: #ffffff;
+}
