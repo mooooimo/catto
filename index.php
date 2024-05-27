@@ -105,14 +105,29 @@
 			<div class="container-h1">
 				Learning
 				<strong>Becomes Effective</strong> and
-				<strong>Fun</strong> in Catto's World
+				<strong>Fun</strong>
 			</div>
 			<div class="container-b1">
 				"Play and Learn." - Catto
 			</div>
+			<!-- CARD CLASS START -->
+			<div class="card-class">
+				<div class="class-image-angka"></div>
+				<div class="class-text">
+					<div class="text-display">Belajar Angka</div>
+					<div class="text-level">15 levels</div>
+				</div>
+			</div>
+			<!-- CARD END -->
 		</div>
 	</div>
 	<!-- CLASS END -->
-	</script>
+
+	<!-- FOOTER START -->
+	<footer class="footer">
+
+	</footer>
+	<!-- FOOTER END -->
 </body>
+
 </html>
