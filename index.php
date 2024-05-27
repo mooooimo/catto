@@ -216,6 +216,6 @@
 		</div>
 	</div>
 		<!-- FOTER END -->
-	</script>
 </body>
+
 </html>
