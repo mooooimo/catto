@@ -251,7 +251,7 @@
 			</div>
 		</div>
 	</div>
-		<!-- FOOTER END -->
+		<!-- FOTER END -->
 	</script>
 </body>
 </html>

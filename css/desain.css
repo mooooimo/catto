@@ -597,11 +597,11 @@ body {
 }
 
 .download-here {
-	margin-left: 60px;
-	width: 150px;
-	height: 50px;
+	margin-left: 40px;
+	width: 180px;
+	height: 56px;
 	border-radius: 450px;
-	font-size: 12px;
+	font-size: 16px;
 	background-color: #f6f6f6;
 	color: #ffb835;
 	display: flex;
@@ -618,7 +618,8 @@ body {
 .container-footer {
 	background-color: rgba(116, 191, 209, 1);
 	display: flex;
-	height: 0px;
+	height: 200px;
+	color: #b1afac;
 }
 
 .container-footer-h1 {
@@ -627,14 +628,14 @@ body {
 }
 
 .class-headline {
-	color: #656565;
+	color: #f6f6f6;
 	font-weight: 500;
 	margin-bottom: 5px;
 	font-size: 18px;
 }
 
 .class-footer {
-	color: #656565;
+	color: #f6f6f6;
 	width: 30px;
 	line-height: 150%;
 	font-weight: 200;
