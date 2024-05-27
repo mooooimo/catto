@@ -31,8 +31,7 @@
 				<a href="#class">Class</a>
 			</div>
 			<div><a href="#about">About</a></div>
-			<div><a href="">Support</a></div>
-			<div><a href="">Download</a></div>
+			<div><a href="#download">Download</a></div>
 		</div>
 		<div class="navbar-button">
 			<div class="log-in" id="signin">
@@ -110,9 +109,149 @@
 			<div class="container-b1">
 				"Play and Learn." - Catto
 			</div>
+    			<div class="container-game">
+    				<div class="icon-membaca">
+    					<img src="images\bmembaca.png">
+						<div class="container-p-text"><div class="text">Lorem ipsum dolor sit amet. Et vero voluptatum qui voluptatem quam vel iste minus et facilis ratione sed galisum nostrum.</div></div>
+    				</div>
+    				<div class="icon-huruf">
+						<div class="container-p-text"><div class="text">Lorem ipsum dolor sit amet. Et vero voluptatum qui voluptatem quam vel iste minus et facilis ratione sed galisum nostrum.</div></div>
+    					<img src="images\bhuruf.png">
+    				</div>
+    				<div class="icon-angka">
+    					<img src="images\bangka.png">
+						<div class="container-p-text"><div class="text">Lorem ipsum dolor sit amet. Et vero voluptatum qui voluptatem quam vel iste minus et facilis ratione sed galisum nostrum.</div></div>
+    				</div>
+    				<div class="icon-menulis">
+						<div class="container-p-text"><div class="text">Lorem ipsum dolor sit amet. Et vero voluptatum qui voluptatem quam vel iste minus et facilis ratione sed galisum nostrum.</div></div>
+    					<img src="images\bmenulis.png">
+    				</div>
+    			</div>
 		</div>
 	</div>
 	<!-- CLASS END -->
+
+	<!-- ABOUT START -->
+	<div class="container-transition">
+		<div class="container-godong">
+			<img src="images/godong.png">
+		</div>
+	</div>
+	<div class="about-container-label">
+			<div class="label-fix-abt">
+				<div class="container-label-abt" id="about">
+						About
+				</div>
+			</div>
+	</div>
+	<div class="container-typo">
+		<div class="container-typo-second">
+			<div class="container-typo-text">
+				<strong>They</strong> played a role in <strong>Founding Catto</strong> to achieve its current success.
+				</div>
+		</div>
+	</div>
+	<div class="about-container-team1">
+		<div class="container-team-img">
+			<img src="images/img-dewi.svg">
+		</div>
+		<div class="container-team-img">
+			<img src="images/img-nisa.svg">
+		</div>
+		<div class="container-team-img">
+			<img src="images/img-iqbal.svg">
+		</div>
+
+	</div>
+	<div class="about-container-team2">
+		<div class="container-team-img">
+			<img src="images/img-bimo.svg">
+		</div>
+		<div class="container-team-img">
+			<img src="images/img-taka.svg">
+		</div>
+		<div class="container-team-img">
+			<img src="images/img-mirza.svg">
+		</div>
+	</div>
+	<div class="about-container-ltrblkg">
+		<div class="container-prolog">
+			<div class="prolog-text">
+				Prolog
+			</div>
+		</div>
+			<div class="container-ltrblkg">
+				<div>
+					<div class="container-ltrblkg-text">
+						<div class="ltrblkg-text">
+						Berawal dari pertemuan singkat untuk berkenalan, kami kemudian bekerja sama dalam mencetuskan ide untuk proyek dan kami memiliki kesamaan minat terhadap hewan kucing. Catto hadir dalam perjalanan kami dengan perasaan senang dan sedih yang kami lalui bersama.
+						</div>
+					</div>
+					<div class="container-ltrblkg-text">
+						<div class="ltrblkg-text1">
+						Pada akhirnya, melalui Catto, kami berharap bahwa keluarga, masyarakat, dan semua individu yang telah berkontribusi dapat menyadari betapa pentingnya pendidikan anak-anak, terutama sejak usia dini.
+						</div>
+					</div>
+				</div>
+				<div class="bombom-pojok">
+					<img src="images/bombom-miring.png">
+				</div>
+			</div>
+	</div>
+		<!-- ABOUT END -->
+
+		<!-- DOWNLOAD START -->
+	<div class="container-download" id="download">
+		<div class="container-download-h1">
+			<div class="container-text-download">
+				<div class="started-text">
+					<div class="get-started">
+						Get Started now!
+					</div>
+				</div>
+				<div class="download-text">
+					<div class="download-now">
+						<span>Download for free</span>
+					</div>
+				</div>
+			</div>
+			<div class="download-h1">
+				<div class="download-here">
+					Download Here
+				</div>
+			</div>
+		</div>
+	</div>
+		<!-- DOWNLOAD END -->
+
+		<!-- FOOTER START -->
+	<div class="container-footer">
+		<div class="container-footer-h1">
+			<div class="class-headline">
+				Class
+			</div>
+			<div class="class-footer">
+				Membaca Huruf Angka Menulis
+			</div>
+		</div>
+		<div class="container-footer-h1">
+			<div class="class-headline">
+				Follow Us
+			</div>
+			<div class="class-footer">
+				Instagram
+			</div>
+		</div>
+		<div class="catto-bombom">
+			<div class="catto-container">
+				<img src="images/catto-footer.png">
+			</div>
+			<div class="bombom-container">
+				<img src="images/bombom-footer.png">
+			</div>
+		</div>
+	</div>
+		<!-- FOOTER END -->
 	</script>
 </body>
 </html>
