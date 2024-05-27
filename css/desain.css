@@ -618,7 +618,7 @@ body {
 .container-footer {
 	background-color: rgba(116, 191, 209, 1);
 	display: flex;
-	height: 280px;
+	height: 0px;
 }
 
 .container-footer-h1 {
