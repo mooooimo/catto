@@ -93,43 +93,7 @@
 	</div>
 	<!-- LOGO END -->
 
-	<!-- CLASS START -->
-	<div class="container">
-		<div class="container-second">
-			<div class="label-fix">
-				<div class="container-label" id="class">
-					Class
-				</div>
-			</div>
-			<div class="container-h1">
-				Learning
-				<strong>Becomes Effective</strong> and
-				<strong>Fun</strong> in Catto's World
-			</div>
-			<div class="container-b1">
-				"Play and Learn." - Catto
-			</div>
-    			<div class="container-game">
-    				<div class="icon-membaca">
-    					<img src="images\bmembaca.png">
-						<div class="container-p-text"><div class="text">Lorem ipsum dolor sit amet. Et vero voluptatum qui voluptatem quam vel iste minus et facilis ratione sed galisum nostrum.</div></div>
-    				</div>
-    				<div class="icon-huruf">
-						<div class="container-p-text"><div class="text">Lorem ipsum dolor sit amet. Et vero voluptatum qui voluptatem quam vel iste minus et facilis ratione sed galisum nostrum.</div></div>
-    					<img src="images\bhuruf.png">
-    				</div>
-    				<div class="icon-angka">
-    					<img src="images\bangka.png">
-						<div class="container-p-text"><div class="text">Lorem ipsum dolor sit amet. Et vero voluptatum qui voluptatem quam vel iste minus et facilis ratione sed galisum nostrum.</div></div>
-    				</div>
-    				<div class="icon-menulis">
-						<div class="container-p-text"><div class="text">Lorem ipsum dolor sit amet. Et vero voluptatum qui voluptatem quam vel iste minus et facilis ratione sed galisum nostrum.</div></div>
-    					<img src="images\bmenulis.png">
-    				</div>
-    			</div>
-		</div>
-	</div>
-	<!-- CLASS END -->
+	
 
 	<!-- ABOUT START -->
 	<div class="container-transition">
