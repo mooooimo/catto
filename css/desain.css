@@ -2,6 +2,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+html.sr {
+	/* visibility: hidden; */
+}
+
 body {
 	background-color: #f6f6f6;
 	margin: 0;
@@ -269,8 +273,8 @@ body {
 	width: fit-content;
 	line-height: 150%;
 	padding-top: 40px;
-	/* padding-left: 220px;
-	padding-right: 220px; */
+	padding-left: 220px;
+	padding-right: 220px;
 	font-size: 52px;
 	color: #656565;
 	font-weight: 400;
@@ -302,7 +306,6 @@ body {
 	width: 90%;
 	margin-left: 50px;
 }
-/* CLASS END */
 
 .icon-membaca {
 	display: flex;
@@ -317,12 +320,28 @@ body {
 }
 
 .icon-membaca .text {
-	font-size: 24px;
-	font-weight: 500;
+	font-size: 18px;
+	font-weight: 200;
 	text-align: left;
 	padding-left: 20px;
-	color: #656565;
+	color: #b1afac;
 	width: 700px;
+}
+
+.icon-membaca .text-1 {
+	font-size: 28px;
+	font-weight: 700;
+	padding-bottom: 12px;
+	color: #74afe5;
+	padding-left: 20px;
+}
+
+.icon-membaca .text-2 {
+	font-size: 22px;
+	font-weight: 500;
+	padding-top: 12px;
+	color: #74afe5;
+	padding-left: 20px;
 }
 
 .icon-huruf {
@@ -337,15 +356,32 @@ body {
 	margin-left: 10px;
 }
 
-.icon-huruf .text {
-	font-size: 24px;
-	font-weight: 500;
+.icon-huruf .text-3 {
+	font-size: 28px;
+	font-weight: 700;
 	text-align: left;
 	padding-right: 20px;
-	color: #656565;
+	color: #ffb835;
 	width: 700px;
 }
 
+.icon-huruf .text-4 {
+	font-size: 18px;
+	font-weight: 200;
+	text-align: left;
+	padding-right: 20px;
+	color: #b1afac;
+	width: 700px;
+	padding-top: 12px;
+}
+
+.icon-membaca .text-5 {
+	font-size: 22px;
+	font-weight: 500;
+	padding-top: 12px;
+	color: #74afe5;
+	padding-right: 20px;
+}
 
 .icon-angka {
 	display: flex;
@@ -366,10 +402,10 @@ body {
 	padding-left: 20px;
 	color: #656565;
 	width: 700px;
-	}
+}
 
 .icon-menulis {
-    display: flex;
+	display: flex;
 	justify-content: center;
 	padding-top: 40px;
 	padding-left: 100px;
@@ -393,7 +429,15 @@ body {
 .container-game {
 	background-color: #f6f6f6;
 }
+/* CLASS END */
 
+/* DAUN START */
+.daun-jatuh {
+	background-color: #f6f6f6;
+}
+/* DAUN END */
+
+/* ABOUT START */
 .about-container-label {
 	display: flex;
 	justify-content: center;
@@ -442,21 +486,21 @@ body {
 	justify-content: center;
 	width: fit-content;
 	line-height: 150%;
-	color: #656565;
+	color: #74bfd1;
 	font-weight: 400;
 	border-radius: 32px;
 	font-size: 16px;
 	padding: 12px 24px;
 	box-shadow: 2px -1px 104px -5px
-		rgba(206, 182, 116, 0.67);
+		rgba(116, 191, 206, 0.67);
 	-webkit-box-shadow: 2px -1px 104px -5px
-		rgba(206, 182, 116, 0.67);
+		rgba(116, 191, 206, 0.67);
 	-moz-box-shadow: 2px -1px 104px -5px
-		rgba(206, 182, 116, 0.67);
+		rgba(116, 191, 206, 0.67);
 }
 
 .about-container-ltrblkg {
-	background-color: #f6f6f6;	
+	background-color: #f6f6f6;
 }
 
 .container-ltrblkg {
@@ -505,7 +549,6 @@ body {
 	width: 900px;
 	line-height: 150%;
 	padding-top: 40px;
-	padding-bottom: 50px;
 	font-size: 52px;
 	color: #656565;
 	font-weight: 400;
@@ -515,6 +558,15 @@ body {
 .container-typo-text strong {
 	color: #ffb835;
 	font-weight: 400;
+}
+
+.container-text-b1 {
+	line-height: 150%;
+	color: #b1afac;
+	font-weight: 200;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 40px;
 }
 
 .about-container-team1 {
@@ -544,11 +596,13 @@ body {
 	flex-direction: column;
 	align-items: center;
 }
+/* TEAM END */
 
+/* DOWNLOAD START */
 .container-download {
 	display: flex;
 	justify-content: center;
-	background-color: rgba(116, 191, 209, 1);
+	background: linear-gradient(#f6f6f6, #74bfd1);
 }
 
 .container-download-h1 {
@@ -564,11 +618,11 @@ body {
 	justify-content: space-around;
 	border-radius: 450px;
 	box-shadow: 2px -1px 104px -5px
-	rgba(206, 182, 116, 0.67);
+		rgba(206, 182, 116, 0.67);
 	-webkit-box-shadow: 2px -1px 104px -5px
-	rgba(206, 182, 116, 0.67);
+		rgba(206, 182, 116, 0.67);
 	-moz-box-shadow: 2px -1px 104px -5px
-	rgba(206, 182, 116, 0.67);
+		rgba(206, 182, 116, 0.67);
 }
 
 .container-text-download {
@@ -610,13 +664,16 @@ body {
 	justify-content: center;
 	align-items: center;
 	box-shadow: 2px -1px 104px -5px
-	rgba(90, 85, 71, 0.67);
+		rgba(90, 85, 71, 0.67);
 	-webkit-box-shadow: 2px -1px 104px -5px
-	rgba(90, 85, 71, 0.67);
+		rgba(90, 85, 71, 0.67);
 	-moz-box-shadow: 2px -1px 104px -5px
-	rgba(90, 85, 71, 0.67);
+		rgba(90, 85, 71, 0.67);
+		pointer-events: fill;
 }
+/* DOWNLOAD END */
 
+/* FOOTER START */
 .container-footer {
 	background-color: rgba(116, 191, 209, 1);
 	display: flex;
@@ -655,11 +712,12 @@ body {
 }
 
 .catto-container img {
-	width: 200px;
+	width: 80%;
+	height: 80%;
 }
 
 .bombom-container img {
-	width: 220px;
+	width: 80%;
+	height: 80%;
 }
-
 /* FOOTER END */
