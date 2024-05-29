@@ -107,6 +107,7 @@ list-type-ulli, .socials {
   src: url("../fonts/poppins/poppins-v5-latin-900.eot"); /* IE9 Compat Modes */
   src: local("Poppins Black"), local("Poppins-Black"), url("../fonts/poppins/poppins-v5-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins/poppins-v5-latin-900.woff2") format("woff2"), url("../fonts/poppins/poppins-v5-latin-900.woff") format("woff"), url("../fonts/poppins/poppins-v5-latin-900.ttf") format("truetype"), url("../fonts/poppins/poppins-v5-latin-900.svg#Poppins") format("svg"); /* Legacy iOS */
 }
+
 a:focus,
 a:active {
   text-decoration: none;

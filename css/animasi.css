@@ -22,11 +22,23 @@
 /* HERO END */
 
 /* CIRCLE START */
-.circle-1,
-.circle-2 {
+.circle-1 {
 	animation: bounce 12s infinite;
 }
+
+.circle-2 {
+	animation: bounce 6s infinite;
+}
 /* CIRCLE END */
+
+/* LOGO START */
+.text-logo a:hover {
+	color:#ffeac2;
+	transform: scale(90%);
+	transition: all ease-in-out 0.2s;
+	opacity: 0.9;
+}
+/* LOGO END */
 
 /* CLASS START */
 .icon-membaca img {
@@ -85,6 +97,18 @@
 	opacity: 0.9;
 }
 /* DOWNLOAD END */
+
+/* PROLOG START */
+.bombom-pojok {
+	animation: bounce 12s infinite;
+}
+/* PROLOG END */
+
+/* FOOTER START */
+.class-footer a:hover {
+	color: #b1afac;
+} 
+/* FOOTER END */
 
 /* DAUN JATUH */
 #leaves {
