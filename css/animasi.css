@@ -6,32 +6,41 @@
 .navbar-button .log-in:hover,
 .sign-up:hover {
 	background-color: #ffeac2;
+	transform: scale(90%);
+	transition: all ease-in-out 0.2s;
+	opacity: 0.9;
 }
 /* NAVBAR END */
 
 /* HERO START */
 .hero-button .display-button:hover {
 	background-color: #ffeac2;
+	transform: scale(90%);
+	transition: all ease-in-out 0.2s;
+	opacity: 0.9;
 }
 /* HERO END */
 
 /* CIRCLE START */
-.circle-1, .circle-2 {
+.circle-1,
+.circle-2 {
 	animation: bounce 12s infinite;
 }
 /* CIRCLE END */
 
 /* CLASS START */
-/* .icon-membaca:hover {
-	background-color: #333;
-	scale: ;
-} */
-
-.icon-membaca img, .text, .text-1, .text-2 {
-    animation: bounce 12s infinite;
+.icon-membaca img {
+	animation: bounce 12s infinite;
 }
 
-.icon-huruf img, .text-3, .text-4, .text-5 {
+.icon-membaca .text-2:hover {
+	background-color: #e7e7e7;
+	transform: scale(90%);
+	transition: all ease-in-out 0.2s;
+	opacity: 0.9;
+}
+
+.icon-huruf img {
 	animation: bounce 12s infinite;
 }
 
@@ -44,21 +53,21 @@
 }
 
 @keyframes bounce {
-    0%{
-        transform: translateY(-5%);
-    }
-    25%{
-        transform: translateY(5%);
-    }
-    50%{
-        transform: translateY(-5%);
-    }
-    75%{
-        transform: translateY(5%);
-    }
-    100%{
-        transform: translateY(-5%);
-    }
+	0% {
+		transform: translateY(-5%);
+	}
+	25% {
+		transform: translateY(5%);
+	}
+	50% {
+		transform: translateY(-5%);
+	}
+	75% {
+		transform: translateY(5%);
+	}
+	100% {
+		transform: translateY(-5%);
+	}
 }
 /* CLASS END */
 
@@ -71,6 +80,9 @@
 /* DOWNLOAD START */
 .download-h1 .download-here:hover {
 	background-color: #ffeac2;
+	transform: scale(90%);
+	transition: all ease-in-out 0.2s;
+	opacity: 0.9;
 }
 /* DOWNLOAD END */
 

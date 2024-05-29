@@ -311,8 +311,12 @@ body {
 	display: flex;
 	justify-content: center;
 	margin-top: 40px;
-	padding-right: 100px;
+	padding-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
 	align-items: center;
+	background-color: #2b6ead;
 }
 
 .icon-membaca img {
@@ -324,7 +328,7 @@ body {
 	font-weight: 200;
 	text-align: left;
 	padding-left: 20px;
-	color: #b1afac;
+	color: #e7e7e7;
 	width: 700px;
 }
 
@@ -332,16 +336,24 @@ body {
 	font-size: 28px;
 	font-weight: 700;
 	padding-bottom: 12px;
-	color: #74afe5;
+	color: #fff;
 	padding-left: 20px;
 }
 
 .icon-membaca .text-2 {
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: 500;
+	margin-top: 12px;
 	padding-top: 12px;
-	color: #74afe5;
-	padding-left: 20px;
+	padding-bottom: 12px;
+	border-radius: 12px;
+	padding-left: 24px;
+	padding-right: 24px;
+	color: #2b6ead;
+	margin-left: 20px;
+	background-color: #fff;
+	text-align: center;
+	pointer-events: visible;
 }
 
 .icon-huruf {
@@ -375,33 +387,70 @@ body {
 	padding-top: 12px;
 }
 
-.icon-membaca .text-5 {
+.icon-huruf .text-5 {
 	font-size: 22px;
 	font-weight: 500;
+	background-color: #ffb835;
 	padding-top: 12px;
-	color: #74afe5;
-	padding-right: 20px;
+	margin-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 12px;
+	padding-left: 24px;
+	padding-right: 24px;
+	margin-right: 20px;
+	color: #fff;
+	text-align: center;
 }
 
 .icon-angka {
 	display: flex;
 	justify-content: center;
+	margin-top: 40px;
+	padding-right: 40px;
 	padding-top: 40px;
-	padding-right: 100px;
+	padding-bottom: 40px;
+	padding-left: 40px;
 	align-items: center;
+	background-color: #882fad
 }
 
 .icon-angka img {
 	margin-right: 10px;
 }
 
-.icon-angka .text {
-	font-size: 24px;
-	font-weight: 500;
+.icon-angka .text-6 {
+	font-size: 28px;
+	font-weight: 700;
 	text-align: left;
 	padding-left: 20px;
-	color: #656565;
+	color: #fff;
 	width: 700px;
+}
+
+.icon-angka .text-7 {
+	font-size: 18px;
+	font-weight: 200;
+	text-align: left;
+	padding-right: 20px;
+	color: #e7e7e7;
+	width: 700px;
+	padding-top: 12px;
+	margin-left: 20px;
+}
+
+.icon-angka .text-8 {
+	font-size: 22px;
+	font-weight: 500;
+	background-color: #fff;
+	padding-top: 12px;
+	margin-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 12px;
+	padding-left: 24px;
+	padding-right: 24px;
+	margin-left: 20px;
+	color: #882fad;
+	text-align: center;
 }
 
 .icon-menulis {
@@ -417,13 +466,38 @@ body {
 	margin-left: 10px;
 }
 
-.icon-menulis .text {
-	font-size: 24px;
-	font-weight: 500;
+.icon-menulis .text-9 {
+	font-size: 28px;
+	font-weight: 700;
 	text-align: left;
 	padding-right: 20px;
-	color: #656565;
+	color: #43c133;
 	width: 700px;
+}
+
+.icon-menulis .text-10 {
+	font-size: 18px;
+	font-weight: 200;
+	text-align: left;
+	padding-right: 20px;
+	color: #b1afac;
+	width: 700px;
+	padding-top: 12px;
+}
+
+.icon-menulis .text-11 {
+	font-size: 22px;
+	font-weight: 500;
+	background-color: #43c133;
+	padding-top: 12px;
+	margin-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 12px;
+	padding-left: 24px;
+	padding-right: 24px;
+	margin-right: 20px;
+	color: #fff;
+	text-align: center;
 }
 
 .container-game {
@@ -687,8 +761,8 @@ body {
 }
 
 .class-headline {
-	color: #f6f6f6;
-	font-weight: 500;
+	color: #b1afac;
+	font-weight: 700;
 	margin-bottom: 5px;
 	font-size: 18px;
 }
