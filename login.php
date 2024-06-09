@@ -52,7 +52,7 @@ include "connection.php";
                                 <input type="submit" name="signin" id="signin" class="form-submit" value="Log in"/>
                             </div>
                             <div class="alert alert-danger" id="failure" style="margin-top: 10px; display:none">
-                                <strong>Mang Eak</strong> Samting wong.
+                                <strong>Wah!</strong> Something wrong.
                             </div>
                         </form>
                     </div>
@@ -78,7 +78,7 @@ if(isset($_POST["signin"])) {
     } else {
         ?>
         <script type="text/javascript">
-            window.location="index.php";
+            window.location="index.html";
         </script>
         <?php
     }
